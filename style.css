@@ -8,6 +8,10 @@ h1{
 h2{
     font-size: 30px;
 }
+#header{
+    margin-left: 13px;
+}
+
 .name-color{
     color: orange;
 }
