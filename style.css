@@ -8,13 +8,14 @@ h1{
 .name-color{
     color: orange;
 }
-section{
+.flex-container{
     display: flex;
     margin-bottom: 115px;
 }
 .half-width{
     width: 50%;
     padding-left: 5%;
+    float: left;
 }
 .half-width img{
     width:80% ;
@@ -23,7 +24,7 @@ section{
     text-decoration: none;
     color: white;
     padding:7px 20px;
-    background-color: #F97D62;
+    background: linear-gradient(45deg, lightsalmon, tomato);
     border-radius: 10px;
 }
 .top-banner{
@@ -33,7 +34,7 @@ section{
 .resume-btn{
     text-decoration: none;
     color: white;
-    background-color: #F97D62 ;
+    background: linear-gradient(45deg, lightsalmon, tomato);
     padding: 8px 20px;
     border-radius: 10px;
 }
